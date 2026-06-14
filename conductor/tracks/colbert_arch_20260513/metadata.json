@@ -1,0 +1,24 @@
+{
+  "track_id": "colbert_arch_20260513",
+  "type": "feature",
+  "status": "new",
+  "track_class": "future_runtime_architecture",
+  "current_state": "granular_future_track_defined",
+  "scope_boundary": "native llama.cpp ColBERT runtime architecture only; separate from Ollama conversion/docs PR #16195",
+  "created_at": "2026-05-13T20:00:00Z",
+  "updated_at": "2026-06-14T00:00:00Z",
+  "description": "Future native ColBERT architecture support in llama.cpp GGUF backend, kept separate from the current Ollama conversion/docs work",
+  "dependencies": [
+    "reference ColBERT output contract",
+    "GGUF metadata and tensor naming contract",
+    "license/provenance decision for test fixtures"
+  ],
+  "completion_evidence": [
+    "architecture design note",
+    "converter contract and fixture plan",
+    "native loader implementation",
+    "reference-output parity tests",
+    "server/API behavior documentation"
+  ],
+  "publication_status": "future-track-not-started"
+}
